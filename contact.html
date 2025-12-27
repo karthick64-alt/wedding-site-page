@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+    <title>Contact - Belle Weddings</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Playfair+Display:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <span class="logo-ele">ele</span>
+                <span class="logo-text">Belle Weddings</span>
+            </a>
+            <button class="menu-toggle" aria-label="Toggle menu" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <nav class="nav" id="mainNav">
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle">
+                        Home
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="nav-dropdown-menu">
+                        <a href="index.html" class="nav-dropdown-item">Home 1</a>
+                        <a href="index2.html" class="nav-dropdown-item">Home 2</a>
+                    </div>
+                </div>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="testimonials.html" class="nav-link">Testimonials</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <div class="nav-dropdown">
+                    <button class="nav-dropdown-toggle">
+                        Account
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="nav-dropdown-menu">
+                        <a href="login.html" class="nav-dropdown-item">
+                            <i class="fas fa-sign-in-alt"></i> Log In
+                        </a>
+                        <a href="register.html" class="nav-dropdown-item">
+                            <i class="fas fa-user-plus"></i> Register
+                        </a>
+                        <a href="admin-dashboard.html" class="nav-dropdown-item">
+                            <i class="fas fa-tachometer-alt"></i> Admin Dashboard
+                        </a>
+                    </div>
+                </div>
+            </nav>
+           
+        </div>
+    </header>
+
+    <!-- Contact Section 1 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-row">
+                <div class="content-text">
+                    <h2 class="section-title contact-title">Contact us</h2>
+                    <p class="section-text">
+                        We'd love to hear from you! Whether you're planning your dream wedding or have questions about our services, our team is here to help. Reach out to us through any of the methods below, and we'll get back to you as soon as possible.
+                    </p>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt contact-icon"></i>
+                            <div>
+                                <h4 class="contact-label">Address</h4>
+                                <p>500 Terry Francine Street<br>San Francisco, CA 94158</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone contact-icon"></i>
+                            <div>
+                                <h4 class="contact-label">Phone</h4>
+                                <p>Tel: 123-456-7890<br>Fax: 123-456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope contact-icon"></i>
+                            <div>
+                                <h4 class="contact-label">Email</h4>
+                                <p>info@belleweddings.com<br>bookings@belleweddings.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock contact-icon"></i>
+                            <div>
+                                <h4 class="contact-label">Business Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 6:00 PM<br>Saturday: 10:00 AM - 4:00 PM<br>Sunday: By Appointment Only</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-social-section">
+                        <h4 class="contact-label" style="margin-top: 30px; margin-bottom: 15px;">Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-image-wrapper">
+                    <div class="decorative-shape shape-top-right"></div>
+                    <div class="content-image contact-image-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section 2 -->
+    <section class="content-section">
+        <div class="container">
+            <div class="content-row reverse">
+                <div class="contact-form-wrapper">
+                    <div class="decorative-shape shape-top-left"></div>
+                    <form class="contact-form">
+                        <input type="text" placeholder="First name *" required>
+                        <input type="text" placeholder="Last name *" required>
+                        <input type="email" placeholder="Email *" required>
+                        <input type="tel" placeholder="Phone number">
+                        <input type="text" placeholder="Wedding date (if known)">
+                        <input type="text" placeholder="Subject">
+                        <textarea placeholder="Tell us about your vision for your special day..." rows="5" required></textarea>
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+                <div class="content-text">
+                    <h2 class="section-title contact-title">Get in Touch</h2>
+                    <p class="section-text">
+                        Ready to start planning your perfect day? Fill out the form and let us know about your vision. We'll respond within 24 hours to schedule your complimentary consultation call.
+                    </p>
+                    <div class="consultation-info">
+                        <h3 class="consultation-title">What to Expect</h3>
+                        <ul class="consultation-list">
+                            <li><i class="fas fa-check-circle"></i> Complimentary 30-minute discovery call</li>
+                            <li><i class="fas fa-check-circle"></i> Personalized wedding planning consultation</li>
+                            <li><i class="fas fa-check-circle"></i> Customized package recommendations</li>
+                            <li><i class="fas fa-check-circle"></i> Timeline and budget planning assistance</li>
+                        </ul>
+                    </div>
+                    <div class="contact-cta-wrapper">
+                        <a href="contact.html" class="contact-cta">Book a Consultation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section 3 - Additional Information -->
+    <section class="content-section" style="background-color: var(--color-beige-light);">
+        <div class="container">
+            <div class="content-row">
+                <div class="content-text">
+                    <h2 class="section-title contact-title">Why Choose Us</h2>
+                    <p class="section-text">
+                        At Belle Weddings, we understand that your wedding day is one of the most important days of your life. Our experienced team is dedicated to bringing your vision to life with attention to detail, creativity, and personalized service.
+                    </p>
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <i class="fas fa-heart feature-icon"></i>
+                            <h4>Personalized Service</h4>
+                            <p>Every wedding is unique, and we tailor our services to match your style and preferences.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-calendar-check feature-icon"></i>
+                            <h4>Stress-Free Planning</h4>
+                            <p>Let us handle the details so you can enjoy every moment of your engagement.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-handshake feature-icon"></i>
+                            <h4>Trusted Vendors</h4>
+                            <p>We work with the best vendors in the industry to ensure quality and reliability.</p>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-star feature-icon"></i>
+                            <h4>Excellence Guaranteed</h4>
+                            <p>We're committed to exceeding your expectations and creating unforgettable memories.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-image-wrapper">
+                    <div class="decorative-shape shape-top-right"></div>
+                    <div class="content-image contact-image-1"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-content">
+                    <div class="footer-column">
+                        <a href="index.html" class="footer-logo">
+                            <span class="logo-ele">ele</span>
+                            <span class="logo-text">Belle Weddings</span>
+                        </a>
+                        <h3 class="footer-heading">Contact Us</h3>
+                        <p>500 Terry Francine Street</p>
+                        <p>San Francisco, CA 94158</p>
+                        <p class="footer-contact">Tel: 123-456-7890</p>
+                        <p class="footer-contact">Email: info@mysite.com</p>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-heading">Quick Links</h3>
+                        <ul class="footer-links">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3 class="footer-heading">Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                            <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="footer-cta">
+                            <a href="contact.html" class="btn-primary btn-footer">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 by Belle Weddings. All rights reserved.</p>
+                <p class="footer-powered">Powered and secured by Wix</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Chat Icon -->
+    <div class="chat-icon">💬</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
